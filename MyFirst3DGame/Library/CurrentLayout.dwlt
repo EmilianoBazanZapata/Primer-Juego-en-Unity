@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 62
+  controlID: 12
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 13
+  controlID: 66
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 96
+  controlID: 67
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Curso Unity\Curso-Unity-2018\MyFirst3DGame
+  m_LastProjectPath: D:\Curso Unity\Primer-Juego-en-Unity\MyFirst3DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 243}
-    m_SelectedIDs: 44120000
-    m_LastClickedID: 4676
-    m_ExpandedIDs: 00000000520b0000d80d0000460f0000aa0f0000b41000000213000044140000d0150000ea1500004c16000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 520b0000
+    m_LastClickedID: 2898
+    m_ExpandedIDs: 00000000520b0000da0d0000480f0000ac0f0000b81000000613000048140000d4150000ee1500005016000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000520b0000d80d0000460f0000aa0f0000b41000000213000044140000d0150000ea1500004c160000
+    m_ExpandedIDs: 00000000520b0000da0d0000480f0000ac0f0000b81000000613000048140000d4150000ee15000050160000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d6170000
-      m_LastClickedID: 6102
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 303.36813
+    m_Target: 94.75268
     speed: 2
-    m_Value: 303.36813
+    m_Value: 94.75268
   m_Ortho:
     m_Target: 0
     speed: 2
