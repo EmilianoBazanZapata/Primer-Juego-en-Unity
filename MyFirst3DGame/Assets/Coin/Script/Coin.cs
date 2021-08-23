@@ -8,10 +8,18 @@ using UnityEngine;
 */
 public class Coin : MonoBehaviour
 {
+  public static int CoinsCount = 0;
+
+
+
+
     // Start is called before the first frame update
     private void Start()
     {
         //Debug.Log("El Juego Comenzo");
+        //aumento el contador de monedas
+        Coin.CoinsCount ++;
+        Debug.Log("ahora hay :" + Coin.CoinsCount + " Monedas");
     }
   
     // Update is called once per frame
@@ -25,6 +33,12 @@ public class Coin : MonoBehaviour
       if(other.CompareTag("Player"))
       {
         //Debug.Log("se provoco una colision");
+        //primero debo restar y luego destruir el objeto asi el contador cambia de valor 
+        Coin.CoinsCount--;
+        if(Coin.CoinsCount == 0)
+        {
+          Debug.Log("El Juego Termino");
+        }
         Destroy(gameObject);
       }
     }
