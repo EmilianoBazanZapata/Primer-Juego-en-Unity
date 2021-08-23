@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
+    public float MaxTime = 60f;
     // Start is called before the first frame update
     void Start()
     {
