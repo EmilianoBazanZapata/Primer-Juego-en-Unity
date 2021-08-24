@@ -38,6 +38,10 @@ public class Coin : MonoBehaviour
         if(Coin.CoinsCount == 0)
         {
           Debug.Log("El Juego Termino");
+
+          GameObject GameManager = GameObject.Find("GameManager");
+          //cuando Obtengo todas las monedas destruyo el GameManager para parar el tiempo
+          Destroy(GameManager);
         }
         Destroy(gameObject);
       }
